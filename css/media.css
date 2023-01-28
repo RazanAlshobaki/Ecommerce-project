@@ -1,0 +1,25 @@
+@media (max-width:570px) {
+    #search{
+        position: relative;
+    }
+    .search-form{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        width: 100%;
+    } 
+}
+@media (min-width:992px) {
+    nav{
+    display: block;
+    } 
+    #mobileList,
+    #mobileCategory{
+    display: none !important;
+    }
+    .container-padding{
+        padding: 50px 120px !important;
+      }
+      
+}
